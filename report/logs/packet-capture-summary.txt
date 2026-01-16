@@ -1,0 +1,8 @@
+Summary of Observed Traffic Patterns
+
+- Normal TCP handshake observed from legitimate clients
+- Repeated SYN packets from source IP 203.0.113.0
+- Incomplete TCP handshakes (missing final ACK)
+- Server sending SYN-ACK and RST packets
+- Legitimate HTTP GET /sales.html requests failing
+- HTTP 504 Gateway Time-out errors observed
